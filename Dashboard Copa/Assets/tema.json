@@ -1,0 +1,91 @@
+﻿{
+   "name":"Power BI  - CopadoMundo by Sayuri",
+   "dataColors":[
+      "#AD2B49",
+      "#7033FF",
+      "#F65164",
+      "#22C0FF",
+      "#F24C24",
+      "#40BDAE",
+      "#521227",
+      "#FCC014"
+   ],
+   "textClasses":{
+      "callout":{
+         "fontFace":"'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif",
+         "fontSize":16,
+         "color":"#FFFFFF"
+      },
+      "label":{
+         "fontFace":"wf_standard-font, helvetica, arial, sans-serif",
+         "fontSize":12,
+         "color":"#FFFFFF"
+      },
+      "title":{
+         "fontSize":14,
+         "fontFace":"wf_standard-font, helvetica, arial, sans-serif",
+         "color":"#FFFFFF"
+      }
+   },
+   "visualStyles":{
+      "*":{
+         "*":{
+            "title":[
+               {
+                  "show":false
+               }
+            ],
+			"labels":[
+				{
+					"show":true
+				}
+			],
+			"categoryAxis":[
+				{
+					"show":true,
+					"gridlineShow": false,
+					"showAxisTitle": false
+				}
+			],
+			"valueAxis":[
+				{
+					"show":false,
+					"gridlineShow": false,
+					"showAxisTitle": false
+				}
+			],
+            "outspacePane":[
+               {
+                  "checkboxAndApplyColor":{
+                     "solid":{
+                        "color":"#4C10F2"
+                     }
+                  }
+               }
+            ],
+            "background":[
+               {
+                  "transparency":100
+               }
+            ]
+         }
+      },
+      "page":{
+         "*":{
+            "background":[
+               {
+                  "color":{
+                     "solid":{
+                        "color":"#FFFFFF"
+                     }
+                  },
+                  "transparency":100
+               }
+            ]
+         }
+      }
+   },
+   "foreground":"#FFFFFF",
+   "foregroundNeutralSecondary":"#FFFFFF",
+   "backgroundLight":"#FFFFFF"
+}
